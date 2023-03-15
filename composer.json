@@ -1,0 +1,23 @@
+{
+    "name": "vinicius_rezende/app_mensageiro",
+    "description": "Dependency Inversion Principle",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "ViniciusRezende\\AppMensageiro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vinicius Rezende",
+            "email": "vinicius.rezende@rethink.dev"
+        }
+    ],
+    "require": {}
+    ,
+    "autoload-dev": {
+        "psr-4": {
+            "src\\":"src/"
+        }
+    }
+}
